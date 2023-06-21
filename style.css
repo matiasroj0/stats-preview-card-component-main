@@ -42,9 +42,6 @@ p, h1, h2, h3, h4, h5, h6 {
 }
 
 /*  */
-/* 
-font-family: 'Inter', sans-serif;
-font-family: 'Lexend Deca', sans-serif; */
 
 body {
     background-color: var(--main-background);
@@ -124,13 +121,12 @@ body {
     width: 100%;
     left: 0;
     top: 0;
-    background-color: var(--accent);
+    background-color: hsl(277, 74%, 33%);
     opacity: .5;
     border-top-right-radius: .5rem;
     border-bottom-right-radius: .5rem;
     
 }
-
 
 .mobile-img {
     display: none;
@@ -256,18 +252,10 @@ body {
     }
 
     .img-container::after {
-        position: absolute;
-        content: '';
         height: 98.8%;
-        width: 100%;
-        left: 0;
-        top: 0;
-        background-color: var(--accent);
-        opacity: .5;
         border-top-right-radius: 0;
         border-bottom-right-radius: 0;
         border-top-left-radius: .5rem;
         border-top-right-radius: .5rem;
-        
     }
 }
