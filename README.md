@@ -8,7 +8,7 @@ This is a solution to the [Stats preview card component challenge on Frontend Me
 
 ### Links
 
-- Live Site URL: 
+- Live Site URL: https://starlit-alpaca-95f299.netlify.app
 
 ### The challenge
 
